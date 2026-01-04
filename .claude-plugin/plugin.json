@@ -1,0 +1,32 @@
+{
+  "name": "dev-architect",
+  "version": "0.1.0",
+  "description": "Skills and tools for building well-architected software systems",
+  "author": "waelouf",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waelouf/dev-architect"
+  },
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "software-architecture",
+    "engineering",
+    "design-patterns",
+    "best-practices",
+    "dotnet",
+    "clean-architecture",
+    "ddd",
+    "domain-driven-design",
+    "csharp",
+    "aspnet-core",
+    "repository-pattern"
+  ],
+  "claudeCode": {
+    "type": "plugin",
+    "skills": "./skills",
+    "commands": "./commands",
+    "subagents": "./subagents"
+  }
+}
