@@ -2,7 +2,10 @@
   "name": "dev-architect",
   "version": "0.1.0",
   "description": "Skills and tools for building well-architected software systems",
-  "author": "waelouf",
+  "author": {
+    "name": "Wael Mansour",
+    "github": "waelouf"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -22,11 +25,5 @@
     "csharp",
     "aspnet-core",
     "repository-pattern"
-  ],
-  "claudeCode": {
-    "type": "plugin",
-    "skills": "./skills",
-    "commands": "./commands",
-    "subagents": "./subagents"
-  }
+  ]
 }
