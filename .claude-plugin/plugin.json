@@ -7,10 +7,7 @@
     "github": "waelouf"
   },
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/waelouf/dev-architect"
-  },
+  "repository": "https://github.com/waelouf/dev-architect",
   "keywords": [
     "claude-code",
     "plugin",
