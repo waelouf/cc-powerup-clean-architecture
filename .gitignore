@@ -34,3 +34,4 @@ build/
 # OS files
 Thumbs.db
 .claude/settings.local.json
+tmpclaude-*

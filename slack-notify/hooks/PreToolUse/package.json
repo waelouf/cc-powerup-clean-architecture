@@ -1,9 +1,0 @@
-{
-  "name": "slack-notify-hook",
-  "version": "1.0.0",
-  "description": "PreToolUse hook for Slack notifications",
-  "main": "ask-via-slack.js",
-  "dependencies": {
-    "@slack/web-api": "^7.0.0"
-  }
-}
