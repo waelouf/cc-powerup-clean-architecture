@@ -67,6 +67,21 @@ Comprehensive skill for building .NET Clean Architecture monolithic applications
 
 [Read full documentation →](skills/dotnet-clean-arch/README.md)
 
+#### `azure-cloud-architect`
+Expert guidance for building Azure cloud infrastructure and DevOps pipelines from scratch through production. Full lifecycle coverage - provision, configure, deploy, monitor, secure, optimize.
+
+**Key capabilities:**
+- Provision infrastructure with Bicep and Terraform (Infrastructure as Code)
+- Setup CI/CD pipelines with GitHub Actions and Azure DevOps
+- Deploy applications to Azure services (App Service, AKS, Functions, etc.)
+- Configure monitoring, logging, and alerts for production readiness
+- Implement security best practices (Managed Identity, Private Endpoints, zero credentials)
+- Optimize costs with FinOps principles and real pricing calculations
+- Design shared resources and multi-tenancy patterns
+- Setup multi-environment architecture (dev/staging/prod)
+
+[Read full documentation →](skills/azure-cloud-architect/README.md)
+
 #### `architecture-patterns`
 Expert guidance on software architecture patterns and design principles (SOLID, DRY, KISS, YAGNI, etc.).
 
