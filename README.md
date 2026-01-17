@@ -49,6 +49,10 @@ cd dev-architect
 claude-code plugin link .
 ```
 
+3. Update:
+```bash
+/plugin marketplace update dev-architect
+```
 ## Usage
 
 ### Skills
