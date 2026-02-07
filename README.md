@@ -1,5 +1,11 @@
 # Clean Architecture Powerup
 
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/waelouf/cc-powerup-clean-architecture)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![.NET](https://img.shields.io/badge/.NET-10-512BD4.svg)](https://dotnet.microsoft.com/)
+[![Claude Code](https://img.shields.io/badge/Claude_Code-Plugin-orange.svg)](https://claude.ai/code)
+[![Powerup](https://img.shields.io/badge/Claude_Code-Powerup-purple.svg)](https://github.com/waelouf/cc-powerup-clean-architecture)
+
 > Part of **Claude Code Powerups** - A collection of powerful plugins for supercharging your development workflow
 
 An opinionated toolkit for building production-ready **.NET Clean Architecture applications** with FastEndpoints, Repository pattern, and Domain-Driven Design.
