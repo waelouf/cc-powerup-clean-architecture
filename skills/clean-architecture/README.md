@@ -18,7 +18,7 @@ This skill transforms Claude Code into an expert .NET architect that can:
 Instead of manually creating entities, repositories, services, endpoints, and tests, generate complete features with a single command.
 
 **Before:** 2-3 hours to create a new feature across all layers
-**After:** 2-3 minutes with `/dotnet-clean-arch:add-feature Product`
+**After:** 2-3 minutes with `/clean-arch:add-feature Product`
 
 ### 2. **Enforces Best Practices**
 All generated code follows Clean Architecture principles:
@@ -52,7 +52,7 @@ Backend-focused with flexibility:
 
 All commands are available as convenient slash commands in Claude Code:
 
-### `/dotnet-clean-arch:new`
+### `/clean-arch:new`
 **Scaffold a new Clean Architecture solution**
 
 Creates complete project structure with:
@@ -66,7 +66,7 @@ Creates complete project structure with:
 
 **Example:**
 ```
-/dotnet-clean-arch:new
+/clean-arch:new
 
 > Interactive wizard asks:
 - Project name?
@@ -79,7 +79,7 @@ Creates complete project structure with:
 
 ---
 
-### `/dotnet-clean-arch:add-feature <EntityName>`
+### `/clean-arch:add-feature <EntityName>`
 **Generate a complete CRUD feature**
 
 Creates across all layers:
@@ -94,7 +94,7 @@ Creates across all layers:
 
 **Example:**
 ```
-/dotnet-clean-arch:add-feature Order
+/clean-arch:add-feature Order
 
 > Claude asks:
 - What properties? (Name:string, Total:decimal, Status:string)
@@ -123,7 +123,7 @@ Tests/
 
 ---
 
-### `/dotnet-clean-arch:migrate`
+### `/clean-arch:migrate`
 **Migrate existing codebase to Clean Architecture**
 
 Analyzes your current project and guides refactoring:
@@ -134,7 +134,7 @@ Analyzes your current project and guides refactoring:
 
 **Example:**
 ```
-/dotnet-clean-arch:migrate
+/clean-arch:migrate
 
 > Claude analyzes:
 - 15 controllers found
@@ -152,7 +152,7 @@ Phase 4: Refactor controllers → endpoints
 
 ---
 
-### `/dotnet-clean-arch:audit`
+### `/clean-arch:audit`
 **Validate architecture and find violations**
 
 Scans your project for:
@@ -164,7 +164,7 @@ Scans your project for:
 
 **Example:**
 ```
-/dotnet-clean-arch:audit
+/clean-arch:audit
 
 > Claude scans and reports:
 ✅ Passing Checks (3)
@@ -184,13 +184,13 @@ Scans your project for:
 
 ---
 
-### `/dotnet-clean-arch:patterns`
+### `/clean-arch:patterns`
 **Browse and copy proven patterns**
 
 Interactive pattern library with 14 complete examples:
 
 ```
-/dotnet-clean-arch:patterns
+/clean-arch:patterns
 
 📚 Clean Architecture Pattern Library
 
@@ -224,8 +224,8 @@ Select pattern (1-14): 5
 ### Installation
 
 The skill and all slash commands are already installed at:
-- **Skill:** `~/.claude/skills/dotnet-clean-arch/SKILL.md`
-- **Commands:** `~/.claude/commands/dotnet-clean-arch/*.md`
+- **Skill:** `~/.claude/skills/clean-architecture/SKILL.md`
+- **Commands:** `~/.claude/commands/clean-architecture/*.md`
 
 No additional setup needed - just start using the commands!
 
@@ -233,13 +233,13 @@ No additional setup needed - just start using the commands!
 
 ```bash
 # 1. Start a new Clean Architecture project
-/dotnet-clean-arch:new
+/clean-arch:new
 
 # Claude asks questions and generates complete solution
 
 # 2. Add your first feature
 cd YourProject
-/dotnet-clean-arch:add-feature Product
+/clean-arch:add-feature Product
 
 # 3. Run the application
 dotnet run --project src/API
@@ -251,23 +251,23 @@ dotnet run --project src/API
 
 ```bash
 # 1. Analyze current architecture
-/dotnet-clean-arch:audit
+/clean-arch:audit
 
 # 2. Get migration plan
-/dotnet-clean-arch:migrate
+/clean-arch:migrate
 
 # 3. Follow interactive refactoring steps
 # Claude guides you through each phase
 
 # 4. Validate after migration
-/dotnet-clean-arch:audit
+/clean-arch:audit
 ```
 
 ### To Learn Patterns
 
 ```bash
 # Browse the pattern library
-/dotnet-clean-arch:patterns
+/clean-arch:patterns
 
 # Select a pattern to study
 # Copy code examples to your project
@@ -357,11 +357,11 @@ The skill includes detailed explanations of:
 "I need to build a product catalog API quickly"
 
 ```bash
-/dotnet-clean-arch:new
+/clean-arch:new
 # Select: FastEndpoints, In-Memory DB
 
-/dotnet-clean-arch:add-feature Product
-/dotnet-clean-arch:add-feature Category
+/clean-arch:add-feature Product
+/clean-arch:add-feature Category
 
 dotnet run --project src/API
 # ✅ Working API in 5 minutes
@@ -371,15 +371,15 @@ dotnet run --project src/API
 "I need a production-ready order management system"
 
 ```bash
-/dotnet-clean-arch:new
+/clean-arch:new
 # Select: FastEndpoints, SQL Server, JWT Auth
 
-/dotnet-clean-arch:add-feature Customer
-/dotnet-clean-arch:add-feature Order
-/dotnet-clean-arch:add-feature OrderItem
-/dotnet-clean-arch:add-feature Product
+/clean-arch:add-feature Customer
+/clean-arch:add-feature Order
+/clean-arch:add-feature OrderItem
+/clean-arch:add-feature Product
 
-/dotnet-clean-arch:audit
+/clean-arch:audit
 # ✅ Verify architecture compliance
 ```
 
@@ -387,10 +387,10 @@ dotnet run --project src/API
 "I have a 5-year-old MVC app that needs refactoring"
 
 ```bash
-/dotnet-clean-arch:migrate
+/clean-arch:migrate
 # Follow interactive refactoring plan
 
-/dotnet-clean-arch:audit
+/clean-arch:audit
 # Check progress and remaining violations
 ```
 
@@ -398,7 +398,7 @@ dotnet run --project src/API
 "I want to learn Clean Architecture patterns"
 
 ```bash
-/dotnet-clean-arch:patterns
+/clean-arch:patterns
 # Browse 14 patterns with full examples
 
 # Ask questions like:
@@ -475,7 +475,7 @@ YourProject/
 A: Yes! While optimized for .NET 10, the patterns work with .NET 8+ with minimal adjustments.
 
 **Q: Can I use this with existing projects?**
-A: Absolutely! Use `/dotnet-clean-arch:migrate` for guided refactoring.
+A: Absolutely! Use `/clean-arch:migrate` for guided refactoring.
 
 **Q: What if I prefer Controllers over FastEndpoints?**
 A: The wizard lets you choose. Patterns are included for all API styles.
@@ -501,18 +501,18 @@ A: No - it's a productivity tool. You still need to make architectural decisions
 
 ```bash
 # 1. Create project
-/dotnet-clean-arch:new
+/clean-arch:new
 # Choose: FastEndpoints, SQL Server, JWT Auth
 
 # 2. Add core features
-/dotnet-clean-arch:add-feature Product
-/dotnet-clean-arch:add-feature Category
-/dotnet-clean-arch:add-feature Customer
-/dotnet-clean-arch:add-feature Order
-/dotnet-clean-arch:add-feature ShoppingCart
+/clean-arch:add-feature Product
+/clean-arch:add-feature Category
+/clean-arch:add-feature Customer
+/clean-arch:add-feature Order
+/clean-arch:add-feature ShoppingCart
 
 # 3. Verify architecture
-/dotnet-clean-arch:audit
+/clean-arch:audit
 
 # 4. Run migrations
 dotnet ef database update --project src/Infrastructure --startup-project src/API
@@ -544,8 +544,8 @@ Teams using this skill report:
 
 This skill is based on Microsoft's official eShopOnWeb reference application. For:
 - **Skill issues:** Check the skill file or ask Claude for help
-- **Architecture questions:** Use `/dotnet-clean-arch:patterns` for guidance
-- **Feature requests:** Customize the skill file at `~/.claude/skills/dotnet-clean-arch/SKILL.md`
+- **Architecture questions:** Use `/clean-arch:patterns` for guidance
+- **Feature requests:** Customize the skill file at `~/.claude/skills/clean-architecture/SKILL.md`
 
 ## 📄 License
 
@@ -555,6 +555,6 @@ Generated code is yours to use however you like. The skill itself is based on th
 
 **Ready to build Clean Architecture applications faster?**
 
-Start with: `/dotnet-clean-arch:new`
+Start with: `/clean-arch:new`
 
 Happy coding! 🚀

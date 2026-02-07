@@ -1,26 +1,26 @@
 {
-  "name": "dev-architect",
-  "version": "0.2.0",
-  "description": "Skills and tools for building well-architected software systems",
+  "name": "clean-architecture-powerup",
+  "version": "1.0.0",
+  "description": "Complete toolkit for building .NET Clean Architecture applications with FastEndpoints, Repository pattern, and Domain-Driven Design. Part of Claude Code Powerups.",
   "author": {
     "name": "Wael Mansour",
     "github": "waelouf"
   },
   "license": "MIT",
-  "repository": "https://github.com/waelouf/dev-architect",
+  "repository": "https://github.com/waelouf/cc-powerup-clean-architecture",
   "keywords": [
     "claude-code",
     "plugin",
-    "software-architecture",
-    "engineering",
-    "design-patterns",
-    "best-practices",
-    "dotnet",
+    "powerup",
     "clean-architecture",
-    "ddd",
-    "domain-driven-design",
+    "dotnet",
     "csharp",
     "aspnet-core",
-    "repository-pattern"
+    "ddd",
+    "domain-driven-design",
+    "repository-pattern",
+    "fastendpoints",
+    "software-architecture",
+    "design-patterns"
   ]
 }

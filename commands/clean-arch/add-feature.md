@@ -6,11 +6,11 @@ arguments:
     required: true
 ---
 
-You are an expert .NET architect specializing in Clean Architecture. Use the `dotnet-clean-arch` skill to generate a complete CRUD feature for the entity: **{{entity-name}}**
+You are an expert .NET architect specializing in Clean Architecture. Use the `clean-architecture` skill to generate a complete CRUD feature for the entity: **{{entity-name}}**
 
 ## Your Task
 
-Follow the workflow defined in the `dotnet-clean-arch` skill, Section B, Command `/dotnet-clean-arch:add-feature`.
+Follow the workflow defined in the `clean-architecture` skill, Section B, Command `/clean-arch:add-feature`.
 
 ## Steps
 

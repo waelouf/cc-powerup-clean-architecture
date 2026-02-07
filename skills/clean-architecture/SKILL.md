@@ -1,8 +1,8 @@
 ---
-skill: dotnet-clean-arch
-description: Comprehensive skill for building .NET Clean Architecture monolithic applications with FastEndpoints, Repository pattern, and Domain-Driven Design
+skill: clean-architecture
+description: Complete toolkit for building .NET Clean Architecture applications with FastEndpoints, Repository pattern, and Domain-Driven Design
 version: 1.0.0
-author: Generated from eShopOnWeb reference application
+author: Wael Mansour
 ---
 
 # .NET Clean Architecture Skill
@@ -11,23 +11,23 @@ This skill helps you build, migrate, and maintain .NET monolithic applications f
 
 ## Commands
 
-### `/dotnet-clean-arch:new`
+### `/clean-arch:new`
 **Interactive project scaffolding wizard**
 Scaffold a new Clean Architecture solution from scratch with your choice of API style, database, and testing setup.
 
-### `/dotnet-clean-arch:migrate`
+### `/clean-arch:migrate`
 **Brownfield migration assistant**
 Analyze and migrate existing codebases to Clean Architecture, guiding you through layer separation and refactoring.
 
-### `/dotnet-clean-arch:add-feature <EntityName>`
+### `/clean-arch:add-feature <EntityName>`
 **Feature generator**
 Generate a complete CRUD feature across all layers: entity, repository, specifications, service, API endpoints, and tests.
 
-### `/dotnet-clean-arch:audit`
+### `/clean-arch:audit`
 **Architecture validator**
 Scan your project for architecture violations, dependency issues, and anti-patterns with actionable fix suggestions.
 
-### `/dotnet-clean-arch:patterns`
+### `/clean-arch:patterns`
 **Pattern library browser**
 Browse and copy proven Clean Architecture patterns: Repository, Specification, Domain Events, DI, Testing, and more.
 
@@ -113,7 +113,7 @@ MySolution/
 
 # Section B: Command Implementation Guides
 
-## Command: `/dotnet-clean-arch:new`
+## Command: `/clean-arch:new`
 
 When the user invokes this command, follow this workflow:
 
@@ -290,12 +290,12 @@ Projects:
 Next steps:
 1. cd src/API && dotnet run
 2. Browse to https://localhost:5001 (or displayed URL)
-3. Use /dotnet-clean-arch:add-feature to create your first entity
+3. Use /clean-arch:add-feature to create your first entity
 ```
 
 ---
 
-## Command: `/dotnet-clean-arch:migrate`
+## Command: `/clean-arch:migrate`
 
 When user invokes this command for an existing project:
 
@@ -457,9 +457,9 @@ Generate TODO checklist:
 
 ---
 
-## Command: `/dotnet-clean-arch:add-feature <EntityName>`
+## Command: `/clean-arch:add-feature <EntityName>`
 
-When user runs `/dotnet-clean-arch:add-feature Product`:
+When user runs `/clean-arch:add-feature Product`:
 
 ### Step 1: Gather Feature Details
 
@@ -894,7 +894,7 @@ Next steps:
 
 ---
 
-## Command: `/dotnet-clean-arch:audit`
+## Command: `/clean-arch:audit`
 
 ### Step 1: Scan Project Structure
 
@@ -1029,7 +1029,7 @@ public async Task<Result<decimal>> CalculatePrice(int productId, int quantity)
 
 ---
 
-## Command: `/dotnet-clean-arch:patterns`
+## Command: `/clean-arch:patterns`
 
 When user runs this command, show interactive menu:
 
@@ -3419,19 +3419,19 @@ app.MapGraphQL();
 
 ```bash
 # Create new project
-/dotnet-clean-arch:new
+/clean-arch:new
 
 # Add feature
-/dotnet-clean-arch:add-feature Product
+/clean-arch:add-feature Product
 
 # Migrate existing project
-/dotnet-clean-arch:migrate
+/clean-arch:migrate
 
 # Audit architecture
-/dotnet-clean-arch:audit
+/clean-arch:audit
 
 # Browse patterns
-/dotnet-clean-arch:patterns
+/clean-arch:patterns
 
 # Create migration
 dotnet ef migrations add MigrationName --project src/Infrastructure --startup-project src/API
@@ -3500,4 +3500,4 @@ Tests:
 
 This skill is based on Microsoft's eShopOnWeb reference application and represents production-ready patterns for building Clean Architecture monolithic applications in .NET.
 
-For questions or issues, consult the pattern library or run `/dotnet-clean-arch:patterns` for interactive examples.
+For questions or issues, consult the pattern library or run `/clean-arch:patterns` for interactive examples.

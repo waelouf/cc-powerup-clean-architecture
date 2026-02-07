@@ -1,6 +1,6 @@
 # Slash Commands
 
-This directory contains slash commands for the dev-architect plugin.
+This directory contains slash commands for the clean-architecture-powerup plugin.
 
 ## What are Slash Commands?
 

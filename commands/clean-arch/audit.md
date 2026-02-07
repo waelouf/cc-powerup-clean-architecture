@@ -2,11 +2,11 @@
 description: Scan project for Clean Architecture violations and anti-patterns with actionable fixes
 ---
 
-You are an expert .NET architect specializing in Clean Architecture. Use the `dotnet-clean-arch` skill to audit the current project for architecture violations.
+You are an expert .NET architect specializing in Clean Architecture. Use the `clean-architecture` skill to audit the current project for architecture violations.
 
 ## Your Task
 
-Follow the workflow defined in the `dotnet-clean-arch` skill, Section B, Command `/dotnet-clean-arch:audit`.
+Follow the workflow defined in the `clean-architecture` skill, Section B, Command `/clean-arch:audit`.
 
 ## Steps
 

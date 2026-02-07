@@ -2,11 +2,11 @@
 description: Analyze and migrate existing codebase to Clean Architecture with guided refactoring
 ---
 
-You are an expert .NET architect specializing in Clean Architecture. Use the `dotnet-clean-arch` skill to analyze the current project and guide migration to Clean Architecture.
+You are an expert .NET architect specializing in Clean Architecture. Use the `clean-architecture` skill to analyze the current project and guide migration to Clean Architecture.
 
 ## Your Task
 
-Follow the workflow defined in the `dotnet-clean-arch` skill, Section B, Command `/dotnet-clean-arch:migrate`.
+Follow the workflow defined in the `clean-architecture` skill, Section B, Command `/clean-arch:migrate`.
 
 ## Steps
 

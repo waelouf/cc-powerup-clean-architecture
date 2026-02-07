@@ -1,6 +1,6 @@
 # Subagents
 
-This directory contains subagent configurations for the dev-architect plugin.
+This directory contains subagent configurations for the clean-architecture-powerup plugin.
 
 ## What are Subagents?
 

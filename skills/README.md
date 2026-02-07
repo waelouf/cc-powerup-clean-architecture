@@ -1,6 +1,6 @@
 # Skills
 
-This directory contains Claude Code skills for the dev-architect plugin.
+This directory contains Claude Code skills for the clean-architecture-powerup plugin.
 
 ## What are Skills?
 

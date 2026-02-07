@@ -6,11 +6,11 @@ arguments:
     required: false
 ---
 
-You are an expert .NET architect specializing in Clean Architecture. Use the `dotnet-clean-arch` skill to scaffold a new Clean Architecture solution.
+You are an expert .NET architect specializing in Clean Architecture. Use the `clean-architecture` skill to scaffold a new Clean Architecture solution.
 
 ## Your Task
 
-Follow the workflow defined in the `dotnet-clean-arch` skill, Section B, Command `/dotnet-clean-arch:new`.
+Follow the workflow defined in the `clean-architecture` skill, Section B, Command `/clean-arch:new`.
 
 ## Steps
 
@@ -41,7 +41,7 @@ Follow the workflow defined in the `dotnet-clean-arch` skill, Section B, Command
    - How to run the application
    - How to run tests
    - How to create migrations
-   - Next steps (use /dotnet-clean-arch:add-feature)
+   - Next steps (use /clean-arch:add-feature)
 
 6. **Provide Summary**:
    - List all created projects

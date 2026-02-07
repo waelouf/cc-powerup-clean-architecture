@@ -2,11 +2,11 @@
 description: Browse and copy proven Clean Architecture patterns with interactive examples
 ---
 
-You are an expert .NET architect specializing in Clean Architecture. Use the `dotnet-clean-arch` skill to help the user browse and learn proven patterns.
+You are an expert .NET architect specializing in Clean Architecture. Use the `clean-architecture` skill to help the user browse and learn proven patterns.
 
 ## Your Task
 
-Follow the workflow defined in the `dotnet-clean-arch` skill, Section B, Command `/dotnet-clean-arch:patterns`.
+Follow the workflow defined in the `clean-architecture` skill, Section B, Command `/clean-arch:patterns`.
 
 ## Steps
 

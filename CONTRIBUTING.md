@@ -1,6 +1,6 @@
-# Contributing to dev-architect
+# Contributing to Clean Architecture Powerup
 
-Thank you for your interest in contributing to dev-architect! This guide will help you get started.
+Thank you for your interest in contributing to the Clean Architecture Powerup plugin! This guide will help you get started.
 
 ## How to Contribute
 
@@ -8,7 +8,7 @@ Thank you for your interest in contributing to dev-architect! This guide will he
 
 If you find a bug or have a feature request:
 
-1. Check if the issue already exists in [GitHub Issues](https://github.com/waelouf/dev-architect/issues)
+1. Check if the issue already exists in [GitHub Issues](https://github.com/waelouf/cc-powerup-clean-architecture/issues)
 2. If not, create a new issue with:
    - Clear title and description
    - Steps to reproduce (for bugs)
