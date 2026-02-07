@@ -6,7 +6,7 @@
 [![Claude Code](https://img.shields.io/badge/Claude_Code-Plugin-orange.svg)](https://claude.ai/code)
 [![Powerup](https://img.shields.io/badge/Claude_Code-Powerup-purple.svg)](https://github.com/waelouf/cc-powerup-clean-architecture)
 
-> Part of **Claude Code Powerups** - A collection of powerful plugins for supercharging your development workflow
+>**Part of [Claude Code Powerups](https://github.com/waelouf/claude-code-powerups)** - a marketplace of specialized plugins that extend Claude Code's capabilities.
 
 An opinionated toolkit for building production-ready **.NET Clean Architecture applications** with FastEndpoints, Repository pattern, and Domain-Driven Design.
 
