@@ -58,7 +58,7 @@ Common tools you can grant to subagents:
 
 ## Example Subagents
 
-See `code-reviewer.md` for a complete example of a well-structured subagent.
+No subagents are currently included in this plugin. See the structure above for how to create one.
 
 ## Best Practices
 

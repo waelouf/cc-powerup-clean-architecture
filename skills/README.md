@@ -31,7 +31,7 @@ Include any specific guidelines, best practices, or areas of expertise.
 
 ## Example Skills
 
-See `architecture-patterns.md` for a complete example of a well-structured skill.
+See `clean-architecture/SKILL.md` for a complete example of a well-structured skill.
 
 ## Best Practices
 

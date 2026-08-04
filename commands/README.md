@@ -35,7 +35,7 @@ Use {{argument-name::default-value}} to provide a default value.
 
 ## Example Commands
 
-See `analyze-architecture.md` for a complete example of a well-structured slash command.
+See `clean-arch/new.md` or `clean-arch/add-feature.md` for complete examples of well-structured slash commands.
 
 ## Best Practices
 

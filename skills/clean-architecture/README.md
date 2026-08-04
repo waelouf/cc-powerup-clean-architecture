@@ -223,11 +223,13 @@ Select pattern (1-14): 5
 
 ### Installation
 
-The skill and all slash commands are already installed at:
-- **Skill:** `~/.claude/skills/clean-architecture/SKILL.md`
-- **Commands:** `~/.claude/commands/clean-architecture/*.md`
+Install the plugin from GitHub:
+```bash
+claude plugin marketplace add waelouf/cc-powerup-clean-architecture
+claude plugin install clean-architecture-powerup
+```
 
-No additional setup needed - just start using the commands!
+Once installed, the skill and all slash commands are available automatically.
 
 ### For New Projects
 
